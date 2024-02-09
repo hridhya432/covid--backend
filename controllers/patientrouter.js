@@ -32,7 +32,7 @@ router.post("/signin",async(req,res)=>{
     let email=req.body.email
     let data =await usermodel.find({"email":email})
     if(!data){
-            return res.json(
+            
                { status :"invalid user"}
             )
     }

@@ -2,6 +2,8 @@ const mongoose=require("mongoose")
 
 const patientSchema=new mongoose.Schema(
     {
+
+        
         name:String,
         age:String,
         phoneno:String,
@@ -9,6 +11,7 @@ const patientSchema=new mongoose.Schema(
         address:String,
         password:String,
         email:String
+        
         
 
     }
